@@ -15,7 +15,7 @@ Vue是**渐进式**JavaScript框架
 3. 如果我们构建一个大型的应用,在这一点上,我们可以需要将东西分割成为各自的组件和文件,vue可以用脚手架搭建开发的工程
 4. 所谓的渐进式就是: 从中心的视图层开始向外扩散的结构工具层.这个过程会经历: 视图层渲染 -> 组件机制 -> 路由机制 -> 状态管理 -> 构建工具这五个层级
 
-![](D:\Web\Vue\data:img/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAAZoAAAFLCAIAAABgBt2+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA
+![28-1615129053992.png](data:img/jpg;base64,iVBORw0KGgoAAAANSUhEUgAAAZoAAAFLCAIAAABgBt2+AAAACXBIWXMAAA7EAAAOxAGVKw4bAAAA
 EXRFWHRTb2Z0d2FyZQBTbmlwYXN0ZV0Xzt0AACAASURBVHic7d15cBvXnSfwHxqNGw2C4AmQkkmR
 okhbsWTROmx6TTv2WJJjR4mS2c0kO/FRjrI7tbJrM0mlUqlYsV2uVGpcsxXxjy3bWV+ZncpmEmW1
 0USyK05MJZQjiZRFW5Z4kyIFgOABgLiPBrB/tNSGABK8Ren19/MX0O9145GSvnpXNygzt0AgUKB0
