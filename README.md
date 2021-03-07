@@ -15,7 +15,7 @@ Vue是**渐进式**JavaScript框架
 3. 如果我们构建一个大型的应用,在这一点上,我们可以需要将东西分割成为各自的组件和文件,vue可以用脚手架搭建开发的工程
 4. 所谓的渐进式就是: 从中心的视图层开始向外扩散的结构工具层.这个过程会经历: 视图层渲染 -> 组件机制 -> 路由机制 -> 状态管理 -> 构建工具这五个层级
 
-![28-1615129053992.png](https://gitee.com/feng_wenshan/web_style/blob/master/Vue/12.png)
+![28-1615129053992.png](https://gitee.com/feng_wenshan/web_style/raw/master/Vue/28-1615129053992.png)
 
 **兼容性**:  Vue不支持IE8及以下版本,因为Vue如果使用了IE8无法模拟的ECMAScript5特性。但它支持所有兼容ECMAScrip5t的浏览器
 
