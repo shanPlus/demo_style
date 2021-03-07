@@ -1,0 +1,14 @@
+<template>
+  <input type="text" v-model="num"/>
+</template>
+
+<script>
+export default {
+  name: "myInput",
+  data() {
+    return {
+      num: ''
+    }
+  }
+}
+</script>
