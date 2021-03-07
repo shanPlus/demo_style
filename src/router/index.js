@@ -7,15 +7,37 @@ Vue.use(VueRouter)
 const routes = [
   {
     path: '/',
-    name: 'Home',
-    component: Home
+    name: 'Layout',
+    component: () => import('@/layout/index'),
+    children: [
+      {
+        path: '/',
+        name: 'Home',
+        component: Home,
+      },
+      {
+        path: '/props',
+        name: 'props',
+        components: {
+          default: () => import('@/views/valueTransfer/index'),
+          valueTransfer2: () => import('@/components/valueTransfer/index')
+        }
+      },
+      {
+        path: '/form',
+        name: 'form',
+        component: () => import('@/views/elementUi/form.vue')
+      }
+    ]
   },
+  // {
+  //   path: '/',
+  //   name: 'Home',
+  //   components: Home
+  // },
   {
     path: '/about',
     name: 'About',
-    // route level code-splitting
-    // this generates a separate chunk (about.[hash].js) for this route
-    // which is lazy-loaded when the route is visited.
     component: () => import(/* webpackChunkName: "about" */ '../views/About.vue')
   }
 ]

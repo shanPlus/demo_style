@@ -9,6 +9,12 @@ export default {
     return {
       num: ''
     }
+  },
+  watch: {
+    num(newVal) {
+      // 发送数据
+      this.$bus.$emit('num', newVal)
+    }
   }
 }
 </script>
